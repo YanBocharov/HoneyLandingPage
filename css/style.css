@@ -1,0 +1,33 @@
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  margin-left: 227px;
+}
+.header__nav {
+  display: flex;
+  gap: 40px;
+}
+.header__item {
+  font-family: "Kodchasan";
+  font-weight: 500;
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.header__item_active {
+  font-weight: bold;
+}
+
+.main__bg {
+  width: 100%;
+}

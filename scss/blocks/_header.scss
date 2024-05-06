@@ -1,0 +1,25 @@
+.header {
+    &__wrapper {
+        height: 100px;
+        align-items: center;
+        display: flex; justify-content: space-between;
+    }
+    &__logo {
+        margin-left: 227px;
+    }
+    &__nav {
+        display: flex;
+        gap: 40px;
+    }
+    &__item {
+        font-family: 'Kodchasan';
+        font-weight: 500;
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        &_active {
+            font-weight: bold;
+        }
+    }
+}

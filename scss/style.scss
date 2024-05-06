@@ -1,0 +1,7 @@
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header.scss';
+@import 'blocks/main.scss';
