@@ -1,5 +1,87 @@
 .main {
+    &__bgWrapper {
+        position: relative;
+    }
+    &__honeyBgText {
+        position: absolute;
+        max-height: 610px;
+        max-width: 100%;
+        margin-top: 90px;
+        margin-left: 78px;
+        z-index: -1;
+    }
     &__bg {
-        width: 100%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 100%;
+        max-height: 865px;
+        z-index: -1;
+    }
+    &__textWrapper {
+        padding-top: 182px;
+        margin-left: 177px;
+        div {
+            font-family: 'Kodchasan';
+            font-weight: 700;
+            font-size: 100px;
+            letter-spacing: 0;
+            margin-bottom: 0px;
+        }
+        &_licking {
+            margin-left: 98px;
+            margin-top: 10px;
+        }
+        &_buttons {
+            margin-top: 70px;
+            display: flex;
+            gap: 30px;
+            &_buyBtn {
+                font-size: 18px;
+                font-weight: 700;
+                font-family: 'Kodchasan';
+                width: 180px;
+                height: 65px;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                background-color: rgb(0, 0, 0);
+            }
+            &_learnBtn {
+                font-size: 18px;
+                font-weight: 700;
+                font-family: 'Kodchasan';
+                width: 180px;
+                height: 65px;
+                color: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                border: 3px solid black;
+            }
+        }
+    }
+    &__beeText {
+        display: flex;
+        margin-left: 63px;
+        margin-top: 10px;
+        gap: 42px;
+        img {
+            max-width: 189px;
+            max-height: 129px;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        &_rightSide {
+            img {
+                margin-top: 124px;
+                max-width: 686.83px;
+                max-height: 650px;
+            }
+        }
     }
 }
